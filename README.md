@@ -3,6 +3,8 @@ https://developers.coupangcorp.com/hc/ko/articles/360033877853-%EC%83%81%ED%92%8
 
 https://coupang.com/vm/products/7998889347 <<영상으로 찍은 데이터 쿠팡에 올린상품입니다.
 https://coupang.com/vm/products/7992412669 <<영상으로 찍은 데이터 쿠팡에 올린상품입니다.
+영상에는 테스트를 위해 데이터를 단건으로 보냈지만 
+이제는 db에있는 데이터를 읽어서 일괄적으로 모두 보내는게 가능합니다.
 
 셀레니움으로 읽어온 도매 데이터를 
 쿠팡 API에 전송 할 수있는 데이터로 만들어봤습니다. 
