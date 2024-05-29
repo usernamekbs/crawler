@@ -1,7 +1,7 @@
 # crawler
 https://developers.coupangcorp.com/hc/ko/articles/360033877853-%EC%83%81%ED%92%88-%EC%83%9D%EC%84%B1 << 쿠팡 상품 생성 API 
 
-
+<PRE STYLE="color:red">현재는 상세이미지를 삭제한 상태입니다. 다른 상품을 올릴때 해당 ftp에서 이미지 데이터를 삭제하고 다시올립니다.</PRE>
 <PRE>
 
 쿠팡은 아이템 같은 상품이면 아이템 위너로 묶이는 현상이 있습니다.
