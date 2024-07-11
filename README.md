@@ -1,11 +1,16 @@
 # 스크래핑
-
+<pre>
 대부분은 크롤링 관련된건 python을 사용하고 파이썬에는 https://wikidocs.net/198941 이러한 프레임워크 ? 등이있는걸로 알고있습니다.
 저는 파이썬을 잘모르기 때문에 자바로 할 수있는 방법이 뭐가있을까 고민을 하다가 selenium으로 처리하게됐습니다.(아파치 넛츠도 있습니다) 
-
+</pre>
+<pre>
 https://developers.coupangcorp.com/hc/ko/articles/360033877853-%EC%83%81%ED%92%88-%EC%83%9D%EC%84%B1 << 쿠팡 상품 생성 API 
+</pre>
+<pre>
 https://www.coupang.com/vp/products/8220541336?itemId=23626101518&vendorItemId=90651620794&q=%5B%EC%BB%A4%EB%B2%84%ED%95%8F%5D%EC%BF%BC%EC%B9%B4+%ED%94%8C%EB%9D%BC%EC%9B%8C+%EC%82%AC%ED%94%BC%EC%95%84%EB%85%B8+%EB%8B%A4%EC%9D%B4%EC%96%B4%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%8A%A4&itemsCount=36&searchId=e44402f58e424c31a6c518518434fe58&rank=1&isAddedCart= 
 <<해당 상품도 올렸습니다.
+</pre>
+<pre>
 사실 올린상품이 매우많습니다 모두 selenium으로 도매사이트에 상품정보를 읽어와 db에 저장을 했고 저장한 데이터를 coupang_api 상품 생성 json형식으로 
 모두 출력했습니다. 
 사용한기술은 java,jpa,postgresql 등이 있습니다.
@@ -21,8 +26,8 @@ https://developers.coupangcorp.com/hc/ko/articles/360033877853-%EC%83%81%ED%92%8
 
 또 selenium은 대용량으로 데이터를 읽어오기엔 적합하지 않은 라이브러리로 알고있습니다.
 그래서 셀리니움 이용시에는 페이징을 최대 100페이지만 잡아두고 크롤링을 할까 생각중에있습니다.
+</pre>
 <pre>폰케이스만 크롤링한이유 : (폰 케이스는 옵션 정보가 매우많습니다 옵션 정보가 많으면 더 노출될 확률이 올라가요 ) 
-
 </pre>
 <PRE>현재는 상세이미지를 삭제한 상태입니다. 다른 상품을 올릴때 해당 ftp에서 이미지 데이터를 삭제하고 다시올립니다.</PRE>
 github에서는 상세이미지가 안보일겁니다.
